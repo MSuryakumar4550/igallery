@@ -65,6 +65,7 @@ Publish the website in the given URL.
         .gallery-item:hover img {
             transform: scale(1.5);
         }
+
         .modal {
             display: none;
             position: fixed;
@@ -97,38 +98,30 @@ Publish the website in the given URL.
     </style>
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-
+    <br><br><br>
     <h1 style="text-align: center; margin-top: 20px; color: #fff;">Interactive Photo Gallery</h1>
     <h3 style="text-align: center; margin-top: 20px; color: #fff;">M.Suryakumar 212224040340</h3>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
+    <br><br><br><br><br>
 
     <div class="gallery">
-        <div class="gallery-item" data-image="image1.jpg">
-            <img src="image 2.png" alt="Photo 1" onclick="openModal(this)">
+        <div class="gallery-item">
+            <img src="https://uploads.sarvgyan.com/2014/06/cse-image.jpg" alt="Photo 1" onclick="openModal(this)">
         </div>
-        <div class="gallery-item" data-image="image2.jpg">
-            <img src="image 3.webp" alt="Photo 2" onclick="openModal(this)">
+        <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 2" onclick="openModal(this)">
         </div>
-        <div class="gallery-item" data-image="image3.jpg">
-            <img src="image 4.jpg" alt="Photo 3" onclick="openModal(this)">
+        <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/6755078/pexels-photo-6755078.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 3" onclick="openModal(this)">
         </div>
-        <div class="gallery-item" data-image="image3.jpg">
-          <img src="image 5.avif" alt="Photo 3" onclick="openModal(this)">
-      </div>
-      <div class="gallery-item" data-image="image3.jpg">
-        <img src="image 6.webp" alt="Photo 3" onclick="openModal(this)">
-    </div>
-    <div class="gallery-item" data-image="image3.jpg">
-      <img src="image 7.png" alt="Photo 3" onclick="openModal(this)">
-  </div>
-        
+        <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/18069696/pexels-photo-18069696/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-illustration-depicts-language-models-which-generate-text-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l.png?auto=compress&cs=tinysrgb&w=600" alt="Photo 4" onclick="openModal(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="https://media.istockphoto.com/id/1846545372/photo/chat-with-ai-artificial-intelligence-innovation-applying-ai-and-supporting-operations-data.jpg?s=612x612&w=0&k=20&c=sOI63Ml1a64Z9DpxkEaOE1h08gXIhnCP_wl1wyO5ZLY=" alt="Photo 5" onclick="openModal(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="https://media.istockphoto.com/id/940442486/photo/hacker-programing-in-technology-enviroment-with-cyber-icons.jpg?s=612x612&w=0&k=20&c=BOLumv_Hzf1eHuzL3RwkgVgbqRVBnvwOsWl_ko_4o8g=" alt="Photo 6" onclick="openModal(this)">
+        </div>
     </div>
 
     <div class="modal" id="imageModal">
@@ -137,15 +130,13 @@ Publish the website in the given URL.
     </div>
 
     <script>
-        function openModal(image) 
-        {
+        function openModal(image) {
             const modal = document.getElementById('imageModal');
             const modalImg = document.getElementById('modalImage');
             modal.style.display = 'flex';
             modalImg.src = image.src;
         }
-        function closeModal() 
-        {
+        function closeModal() {
             const modal = document.getElementById('imageModal');
             modal.style.display = 'none';
         }
@@ -153,19 +144,24 @@ Publish the website in the given URL.
 
 </body>
 </html>
+https://uploads.sarvgyan.com/2014/06/cse-image.jpg
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/6055e08c-6281-4598-9707-9b4ab7b90147)
+![image](https://github.com/user-attachments/assets/c9d53f3c-2b78-4428-b714-4f0d8caf9d06)
 
-![image](https://github.com/user-attachments/assets/b4246138-67c3-4d02-a7fd-49c89dda2c7b)
+![image](https://github.com/user-attachments/assets/b6b6a402-6608-4878-b1bf-0c14af16eac0)
 
-![image](https://github.com/user-attachments/assets/835b1df2-3a42-4fad-905c-0c8c7196c356)
+![image](https://github.com/user-attachments/assets/5fa4e574-99a0-47fd-9f5e-ff3a22d49c53)
 
-![image](https://github.com/user-attachments/assets/b4b50d79-1c99-4f50-8974-367aeff43414)
+![image](https://github.com/user-attachments/assets/5c550f60-b30d-42ad-aad3-b59db407e259)
 
-![image](https://github.com/user-attachments/assets/51571ae7-b5a6-4b9d-99b8-1a8f3ff2a81b)
+![image](https://github.com/user-attachments/assets/058d7634-3caf-4475-bf69-e68ab3363fba)
 
-![image](https://github.com/user-attachments/assets/b2f49e43-d232-4ccb-b8bb-2cf35a802784)
+
+![image](https://github.com/user-attachments/assets/a6ba40a6-37f1-4f66-b2e1-4a0e669b2c50)
+
+![image](https://github.com/user-attachments/assets/5069aa02-fbb4-4114-b8bf-5ee8fdc24fc8)
+
 
 
 ## RESULT:
